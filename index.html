@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskManager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">
+      <input type="text" name="NewTask" id="NewTask" placeholder="Add a new Task">
+      <button id="btnAdd"><ion-icon name="add-outline"></ion-icon></button>
+    </div>
+
+    <ul id="TaskList">
+      <li>
+        <span class="TaskText">First Task</span>
+        <div>
+          <button class="btnAction" id="btnAction"><ion-icon name="pencil-outline"></ion-icon></button>
+          <button id="btnAction"><ion-icon name="trash-outline"></ion-icon></button>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <script src="app.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
